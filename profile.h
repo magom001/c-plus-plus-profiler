@@ -29,4 +29,4 @@ private:
 #define UNIQ_ID(lineno) UNIQ_ID_IMPL(lineno)
 
 #define LOG_DURATION(message)                       \
-  LogDuration UNIQ_ID(__LINE__){message};           \
+  LogDuration UNIQ_ID(__LINE__){message};
